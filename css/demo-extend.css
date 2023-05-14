@@ -1,0 +1,20 @@
+.register, .content {
+  color: #fff;
+  background-color: orange;
+  font-size: 1.1rem;
+  border: none;
+}
+
+.border, .content {
+  border: 2px solid darkcyan;
+}
+
+.content {
+  max-width: 500px;
+  padding: 25px;
+  margin: 25px;
+  font-weight: bold;
+  color: #333;
+}
+
+/*# sourceMappingURL=demo-extend.css.map */

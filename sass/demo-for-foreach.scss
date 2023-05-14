@@ -1,0 +1,18 @@
+$borders: "1px solid #999" "2px solid #999" "3px solid #999" "4px solid #999" "5px solid #999";
+
+@for $i from 1 through 5 {
+    .slider-item-#{$i} {
+        background-color: orange;
+        border: 1px solid #999;
+        color: #fff;
+        padding:10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+}
+
+@each $border in $borders {
+    .h2{
+        border: #{$border};
+    }
+}

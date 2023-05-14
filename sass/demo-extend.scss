@@ -1,0 +1,20 @@
+.register {
+    color: #fff;
+    background-color: orange;
+    font-size: 1.1rem;
+    border: none;
+}
+
+.border{
+    border: 2px solid darkcyan;
+}
+
+.content{
+    @extend .register;
+    @extend .border;
+    max-width: 500px;
+    padding: 25px;
+    margin: 25px;
+    font-weight: bold;
+    color: #333;
+}

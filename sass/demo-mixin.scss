@@ -1,0 +1,21 @@
+@mixin button($bgColor: skyblue, $color: #fff){
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    color: $color;
+    background-color: $bgColor;
+
+    &:hover{
+        cursor: pointer;
+        color: red;
+        background-color: yellow;
+    }
+}
+
+.success{
+    @include button;
+}
+
+.danger {
+    @include button(#641a1a,#d1c5c5);
+}
